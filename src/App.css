@@ -1,0 +1,43 @@
+.view_more {
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 9em;
+    height: 3em;
+    bottom: 7%;
+    left: 70%;
+}
+
+.btn-subscribe {
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 8em;
+    height: 3em;
+    background-color: white;
+    color: #000;
+}
+
+.view_more p {
+    margin: 0;
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.truncate-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.line-must-read{
+    border-top: 1px solid #0000004D;
+    border-bottom: 1px solid #0000004D;
+}
+
+.common-bg {
+    background-color: #F5F4F4;
+}
+/* 
+           •  • Create a well-managed platform for customer to meet the people behind strong and emerging brands. •  • To bring together fashion Designers and Moguls at the grassroots. • Reinforcing the bond between innovative lifestyle and building and contributing immensely to the fashion and modeling industry • To create an unforgettable experience for all participants  */
