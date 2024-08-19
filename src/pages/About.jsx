@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import group from "../assets/images/aboutpg/group.jpg";
 import arcade from "../assets/images/brand/arcade.png";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (

@@ -8,7 +8,7 @@ import wedding from "../assets/images/wedding.png";
 import DisplayShows from "../components/DisplayShows";
 import UpcomingEvent from "../components/UpcomingEvent";
 import "../App.css";
-import Footer from "../components/footer";
+import Footer from '../components/Footer';
 import BlogSection from "../components/BlogSection";
 import Subcribe from "../components/Subscribe";
 
