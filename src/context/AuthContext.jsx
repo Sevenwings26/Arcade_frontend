@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
     const navigate = useNavigate();
 
     const loginUser = async (email, password) => {
-        const url = `${process.env.REACT_API_URL}token/`;
+        const url = `${process.env.API_URL}/token/`;
         try {
             const response = await fetch(url, {
                 method: "POST",
@@ -77,7 +77,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     const registerUser = async (username, email, password, confirm_password) => {
-        const url = `${process.env.REACT_API_URL}register/`;
+        const url = `${process.env.API_URL}/register/`;
         try {
             const response = await fetch(url, {
                 method: "POST",
