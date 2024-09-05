@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"; // Import useHistory for navigat
 import AuthContext from "../context/AuthContext";
 import Navbar from "../components/Navbar";
 import { FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -21,10 +22,10 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <Navbar />
-      <div className="fixed inset-0 flex items-start mt-20 justify-center bg-gray-500 bg-opacity-50 z-50">
-        <div className="relative w-11/12 max-w-md p-8 space-y-8 bg-white rounded-lg shadow-lg">
+      <div className="auth-background">
+        <div className="relative w-11/12 max-w-md p-4 space-y-8 bg-white rounded-lg shadow-lg">
           <button
             onClick={handleClose}
             className="absolute top-2 right-2 text-gray-500 hover:text-black"
@@ -64,7 +65,7 @@ const Login = () => {
           </form>
           <div className="text-center text-black">
             <p>
-              <a href="/reset-password">Click to Reset Password! </a>
+              <Link to="/request/password-reset" className="">Click to Reset Password!</Link>
             </p>
             <p>
               Don't have an account?{" "}

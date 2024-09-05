@@ -9,6 +9,9 @@ import Dashboard from './pages/Dashboard'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Designers from './pages/Designers'
+import ForgotPassword from './components/RequestPasswordReset'
+import ResetPassword from './components/ResetPassword'
+import RequestPasswordReset from './components/RequestPasswordReset'
 
 
 
@@ -27,6 +30,9 @@ const App = () => {
                 </ProtectedRoute>
               } />
               <Route path='/login' element= {<Login/>}/>
+              <Route path='/request/password-reset' element= {<RequestPasswordReset/>}/>
+
+              <Route path="/password-reset-confirm/:uidb64/:token" element={<ResetPassword/>} />
               <Route path='/register'  element= {<Register/>} />
               <Route path='/blog'  element= {<Blog/>} />
               <Route path='/about'  element= {<About/>} />
