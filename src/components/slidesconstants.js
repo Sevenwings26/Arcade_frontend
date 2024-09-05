@@ -9,11 +9,13 @@ import {
   
   import carousel1 from "../assets/heroslides/carousel1.jpg";
   import carousel2 from "../assets/heroslides/carousel2.jpg";
-  import carousel3 from "../assets/heroslides/carousel3.png";
+  import carousel3 from "../assets/heroslides/carousel3.jpg";
   import carousel4 from "../assets/heroslides/carousel4.jpg";
   import carousel5 from "../assets/heroslides/carousel5.jpg";
   import carousel6 from "../assets/heroslides/carousel6.jpg";
   
+
+  // https://temitopedadastudios.pixieset.com/elamor/
   export const ServiceData = [
     {
       icon: RxCrop,
